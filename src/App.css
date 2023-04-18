@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ba{
+  width: 100%;
+  background-color: blue;
+  position: sticky;
+  top: 0;
+ }
+ .box{
+  margin: auto;
+  width: 80%;
+ padding-left: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ .box ul{
+  background-color: aqua;
+ list-style-type: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ .box ul li{
+  display: inline-block;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.box ul li a{
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+} 
+.box ul li a:hover{
+  background-color: pink;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search{
+  margin-top: 20px;
+  float: right;
+  padding: 5px;
+  padding-right:30px ;
+}
+.box-box{
+  width: 80%;
+  margin: auto;
+  background-color: bisque;
+  border: 1px  5px 5px 5px solid red;
+}
+.box-item{
+  width: 24%;
+  height: 250px;
+  float: left;
+  margin:0px  5px ;
+ 
+}
+.box-item img{
+  width: 100%;
+  height: 70%;
+}
+.back{
+  width: 80%;
+  margin: auto;
+}
+.back label{
+  clear: both;
+  padding: 15px;
+  border-radius: 5px;
+}
+.feedback{
+  width: 90%;
+  height: 100px;
+}
+.footer{
+  width:80% ;
+  margin: auto;
+  height: 150px;
+}
+.footer-item{
+  width: 32%;
+  float: left;
+  margin: 1px;
+ 
+}
+.footer-item{
+  padding: 5px;
 }
